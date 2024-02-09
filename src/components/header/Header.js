@@ -9,7 +9,7 @@ function Header() {
   return(
     <header className='header'>
       <nav className='nav container'>
-        <Link to="/home" className='nav__logo'>Pedro</Link>
+        <Link to="/home" className='nav__logo'>Pedro Omeeti</Link>
 
         <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
           <ul className='nav__list grid'>
@@ -33,7 +33,7 @@ function Header() {
 
             <li className='nav__item'>
               <Link to="/" className='nav__link'>
-                <i className='uil uil-scenery nav__icon'></i> Portifólio
+                <i className='uil uil-scenery nav__icon'></i> Portfolio
               </Link>
             </li>
             
